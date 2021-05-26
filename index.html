@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 01 HTML</title>
+</head>
+
+<body>
+
+    <h1>Tablas</h1>
+
+    <table border="1" width="100%">
+        <tr>
+            <td width="20%" rowspan="2">
+                <img src="user-icon.png" alt="José Narváez" width="100%"/>
+            </td>
+            <td width="80%">
+                <center>
+                    <h1>José Christian Narváez Figueroa</h1>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Semblanza</h3>
+                <p>Soy una persona que le gusta programar y que en sus inicios batallo demasido trabajando en <abbr title="Centro de Desarrollo de Software">CDS</abbr>, el cual se encuentra ubicado en <address> Av. Universidad Tecnologica Col. Palo Escrito CP. 62760 </address>, todo esto de programar salio gracias a un profesor que me menciono <cite>¿Vas a poder o no?</cite> by Juan Jose Muñoz.
+                
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <h2>Hobbies</h2>
+                    <table border="1" width="80%">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Descripción</th>
+                                <th>Nivel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ver series</td>
+                                <td>Mirar Netflix durante todo el fin de semana</td>
+                                <td>Mayor</td>
+                            </tr>
+                            <tr>
+                                <td>Jugar videojuegos</td>
+                                <td>Aventame una partida de CODcito con los compas</td>
+                                <td>Medio</td>
+                            </tr>
+                            <tr>
+                                <td>Hacer el aseo de mi cuarto</td>
+                                <td>Levantar todo lo que me dice mi mamá</td>
+                                <td>Menor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br />
+
+    <table border="1" width="100%" height="250">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nombre</th>
+                <th>Primer Apellido</th>
+                <th>Segundo Apellido</th>
+                <th>Estado civil</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>José</td>
+                <td colspan="2">Narváez Figueroa</td>
+                <td rowspan="2">Casado</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Christian</td>
+                <td colspan="2">Plata Duran</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Erick</td>
+                <td colspan="2">Galván Aviles</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+
+    <hr />
+    <h1>Listas</h1>
+    <h2>Lista Ordenadas</h2>
+    <p>Me permiten generar viñetas enumaradas de distinta forma</p>
+    <ol type="A">
+        <li>Gustavo</li>
+        <li>Carlos</li>
+        <li>Sebastian</li>
+    </ol>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, commodo scelerisque magna taciti nisi integer, placerat
+        enim consequat purus arcu viverra.</p>
+    <ol start="3" type="" reversed>
+        <li>Jose</li>
+        <li>Liz</li>
+        <li>Tania</li>
+    </ol>
+
+    <h2>Listas no ordenadas</h2>
+    <ul>
+        <li type="circle">Aprobados
+            <ol>
+                <li>Jose</li>
+                <li>Liz</li>
+                <li>Tania</li>
+            </ol>
+        </li>
+        <li type="square">Reprobados
+            <ol type="A">
+                <li>Gustavo</li>
+                <li>Carlos</li>
+                <li>Sebastian</li>
+            </ol>
+        </li>
+    </ul>
+
+    <hr />
+    <h1>Primer práctica</h1>
+    <h2>Docente: José Narváez</h2>
+    <h3>Materia: Aplicaciones Web</h3>
+    <h4>Grupo: E</h4>
+    <h5>Grado: 3ro</h5>
+    <h6>Unidad: 2 - Desarrollo FrontEnd</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit feugiat vehicula fusce tellus purus mus, himenaeos
+        elementum volutpat diam pharetra. Lectus mus himenaeos condimentum curae quis lacus, diam bibendum fusce semper
+        mollis volutpat, taciti ridiculus metus lacinia nunc. Ligula ut nullam netus magna auctor nisi quam dignissim,
+        dis gravida consequat facilisi porttitor vel mattis, fringilla nulla litora id malesuada cras dui.</p>
+    <p> <strong> Lorem ipsum dolor </strong>sit amet consectetur adipiscing, elit feugiat vehicula fusce tellus purus
+        mus, himenaeos elementum volutpat diam pharetra. Lectus mus himenaeos condimentum curae quis lacus, diam
+        bibendum fusce semper mollis volutpat, taciti ridiculus metus lacinia nunc. Ligula ut nullam netus magna auctor
+        nisi quam dignissim, dis gravida consequat facilisi porttitor vel mattis, fringilla nulla litora id malesuada
+        cras dui.</p>
+
+    <p>
+        <b> Lorem ipsum dolor </b>
+        <i> Lorem ipsum dolor</i>
+        <em> sit amet consectetur adipiscing,</em>
+        <big>elit feugiat vehicula fusce tellus purus mus,</big>
+        <small> himenaeos elementum volutpat diam pharetra.</small>
+        <sub> Lectus mus himenaeos condimentum curae quis lacus,</sub>
+        <sup> diam bibendum fusce semper mollis volutpat,</sup>s taciti ridiculus metus lacinia nunc. Ligula ut nullam
+        netus magna auctor nisi quam dignissim, dis gravida consequat facilisi porttitor vel mattis, fringilla nulla
+        litora id malesuada cras dui.
+    </p>
+
+    <p>PI*r<sup>2</sup></p>
+
+</body>
+
+</html>
